@@ -1,30 +1,30 @@
 import React, { Component } from 'react'
 
-export default class FormComponents extends Component {
+export default class htmlFormComponents extends Component {
     render() {
         return (
             <div className="row">
                 <form>
-                    <label for="nameField">Name</label>
+                    <label htmlFor="nameField">Name</label>
                     <input id="nameField" type="text" placeholder="CJ Patoilo" />
-                    <label for="ageRangeField">Age Range</label>
+                    <label htmlFor="ageRangeField">Age Range</label>
                     <select id="ageRangeField">
                         <option value="0-13">0-13</option>
                         <option value="14-17">14-17</option>
                         <option value="18-23">18-23</option>
                         <option value="24+">24+</option>
                     </select>
-                    <label for="commentField">Comment</label>
+                    <label htmlFor="commentField">Comment</label>
                     <textarea id="commentField" placeholder="Hi CJ …"></textarea>
-                    <div class="checkbox-input">
+                    <div className="checkbox-input">
                         <input id="confirmField" type="checkbox" />
-                        <label class="label-inline" for="confirmField">Send a copy to yourself</label>
+                        <label className="label-inline" htmlFor="confirmField">Send a copy to yourself</label>
                     </div>
-                    <div class="radio-input">
+                    <div className="radio-input">
                     <input id="radio" type="radio" />
-                    <label class="label-inline" for="radio">Radio button</label>
+                    <label className="label-inline" htmlFor="radio">Radio button</label>
                 </div>
-                <input class="button" type="submit" value="Send" />
+                <input className="button" type="submit" value="Send" />
             </form>
             </div>
         )

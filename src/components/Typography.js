@@ -12,7 +12,7 @@ export default class Typography extends Component {
                     <h5>Heading 5</h5>
                     <h6>Heading 6</h6>
                 </div>
-                <div class="row">
+                <div className="row">
                     <ul>
                         <li>Item</li>
                         <li>Item</li>
@@ -42,7 +42,7 @@ export default class Typography extends Component {
                         Fugiat ex minim occaecat minim do aute occaecat exercitation aliqua nisi. Deserunt pariatur velit commodo commodo ut est ea exercitation nulla quis qui magna exercitation. Dolor eiusmod enim aliqua tempor amet quis eu do elit sint aliqua magna ipsum. Minim amet dolor officia aliqua mollit qui aliquip dolore. Eiusmod labore proident dolor eiusmod. Nisi deserunt qui do cupidatat aliquip esse anim. Ea aute enim in est exercitation qui pariatur reprehenderit commodo cillum aliquip velit.
                     </p>
                 </div>
-                <div class="row">
+                <div className="row">
                     <p>
                         Below text is written using kbd tag
                         <kbd>ctl + v</kbd><br />This is code word written in code tag<code>code</code>
